@@ -71,11 +71,65 @@
 
 // ==============Task 6 =================
 
-let hands = ["rock", "paper", "scissor"]
+
 
 function gameOn(){
-
     
+    let hands = ["rock", "paper", "scissor"]
+    let randomNum=Math.floor(Math.random()*3)
+    let 
+    
+    if( randomNum=1){
+        return "rock"
+    }
+    else if(randomNum=2){
+       return "paper"
+    }
+    else{
+        return "scissor"
+    }
+    console.log(randomNum)
 }
 
-   
+
+
+// function helper(){
+//     let age=40
+//     if (age<30){
+//         return"you are eligible to write exam"
+//     }
+//     else{
+//         return"you are not eligible to write exam"
+//     }
+// }
+// let messageFromFn=helper()
+// console.log(messageFromFn)
+
+// let a=3
+// let b=6
+// function mult(){
+//     return a*b
+// }
+
+// let finalResult=mult()
+// console.log(finalResult)
+
+// let randomNumber=Math.floor(Math.random()*6)
+// console.log(randomNumber)
+
+// function rollDice(){
+//     let randomDiceNumber=Math.floor(Math.random()*6)+1
+    
+//     return randomDiceNumber
+    // if(randomDiceNumber===1){
+    //     return"hey 1 is the randomnumber"
+    // }
+    // else if(randomDiceNumber===2){
+    //      return "hey 2"
+    // }
+    // else{
+    //     return "three"
+    // }
+    
+// }
+// console.log(rollDice())
