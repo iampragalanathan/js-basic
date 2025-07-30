@@ -75,7 +75,7 @@ let hands = ["rock", "paper", "scissor"]
 
 function gameOn(){
 
-    if ( )
+    
 }
 
    
