@@ -20,11 +20,11 @@
 
 //     console.log(" child discount")
 // }
-// else if (age <= 26){
+// else if (age < 27){
 
 //     console.log("student discount")
 // }
-// else if (age <= 66){
+// else if (age < 67){
 
 //     console.log("full price")
 // }
