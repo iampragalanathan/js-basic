@@ -10,14 +10,14 @@ body {
     padding: 10px;
     margin: 10px auto;
     width: 80%;
-    border: 2px solid #ccc;
+    border: 2px solid red;
     border-radius: 8px;
 }
 
 #apple-shelf {
-    background-color: #ffe6e6;
+    background-color: lightcyan;
 }
 
 #orange-shelf {
-    background-color: #fff0e6;
+    background-color: lightpink;
 }

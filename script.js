@@ -94,3 +94,42 @@ fightButton.addEventListener("click", function() {
 
     stageEl.textContent = `${fighter1} vs ${fighter2}`
 })
+
+
+// =============== Task 8==============
+
+let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"]
+let appleShelf = document.getElementById("apple-shelf")
+let orangeShelf = document.getElementById("orange-shelf")
+
+function sortFruits() {
+    for (let i = 0; i < fruit.length; i++) {
+        if (fruit[i] === "🍎") {
+            appleShelf.textContent += "🍎"
+        } else if (fruit[i] === "🍊") {
+            orangeShelf.textContent += "🍊"
+        }
+    }
+}
+
+
+sortFruits()
+
+// ===============Task 9================
+
+let dogbtn = document.getElementById("dogbtn")
+let catbtn = document.getElementById("catbtn")
+let tigerbtn = document.getElementById("tigerbtn")
+let imgplace = document.getElementById("picture")
+
+dogbtn.addEventListener("click", function() {
+   imgplace.innerHTML = `<img src="/task9/dog.jpg" alt="" style="width: 250px;"></img>`
+})
+
+catbtn.addEventListener("click", function() {
+   imgplace.innerHTML = `<img src="/task9/cat.jpeg" alt="" style="width: 250px;"></img>`
+})
+
+tigerbtn.addEventListener("click", function() {
+   imgplace.innerHTML = `<img src="/task9/tiger.jpeg" alt="" style="width: 250px;"></img>`
+})
