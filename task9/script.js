@@ -4,11 +4,11 @@ let tigerbtn = document.getElementById("tigerbtn")
 let imgplace = document.getElementById("picture")
 
 dogbtn.addEventListener("click", function() {
-   imgplace.innerHTML = `<img src="/task9/dog.png" alt="" style="width: 250px;"></img>`
+   imgplace.innerHTML = `<img src="/task9/dog.jpg" alt="" style="width: 250px;"></img>`
 })
 
 catbtn.addEventListener("click", function() {
-   imgplace.innerHTML = `<img src="/task9/cat.jpg" alt="" style="width: 250px;"></img>`
+   imgplace.innerHTML = `<img src="/task9/cat.jpeg" alt="" style="width: 250px;"></img>`
 })
 
 tigerbtn.addEventListener("click", function() {
