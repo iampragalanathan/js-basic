@@ -72,24 +72,12 @@
 // ==============Task 6 =================
 
 
-
+let hands = ["rock", "paper", "scissor"]
 function gameOn(){
     
-    let hands = ["rock", "paper", "scissor"]
-    let randomNum=Math.floor(Math.random()*3)
-    let 
-    
-    if( randomNum=1){
-        return "rock"
-    }
-    else if(randomNum=2){
-       return "paper"
-    }
-    else{
-        return "scissor"
-    }
-    console.log(randomNum)
+   let randomNum=Math.floor(Math.random()*3)
+    console.log(hands[randomNum])
 }
-
+gameOn()
 
 
