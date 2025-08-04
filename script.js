@@ -12,11 +12,11 @@
 
 // let age=68
 
-// if(age <= 6){
+// if(age < 6){
 
 //     console.log("free")
 // }
-// else if( age <=17){
+// else if( age <18){
 
 //     console.log(" child discount")
 // }
